@@ -10,7 +10,8 @@ import (
 func main() {
 	var pin string
 	var nickname string
-	fmt.Print("Enter game pin: ")
+	var answer string
+	fmt.Print("lolEnter game pin: ")
 	fmt.Scanln(&pin)
 	fmt.Print("Enter nickname: ")
 	fmt.Scanln(&nickname)
@@ -24,13 +25,10 @@ func main() {
 		fmt.Println(err)
 		os.Exit(1)
 	}
-	fmt.Println("Awaiting questions...")
 	for {
-		if conn.WaitQuestion() != nil {
-			fmt.Println("Done question loop:", err)
-			os.Exit(1)
-		}
-		fmt.Print("Got question. Answer: ")
+		fmt.Print("Enter to answer question: ")
+		fmt.Scanln(&answer)
+		fmt.Print("Answer: ")
 		var number string
 		fmt.Scanln(&number)
 		parsed, _ := strconv.Atoi(number)
