@@ -18,7 +18,7 @@ func main() {
 	fmt.Println("Connecting...")
 	conn, err := kahoot.NewConnection(pin)
 	if err != nil {
-		fmt.Println("Error:", err)
+		fmt.Println("Fel:", err)
 		os.Exit(1)
 	}
 	if err := conn.Register(nickname); err != nil {
