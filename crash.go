@@ -10,11 +10,11 @@ func main() {
 	var pin string
 	var nickname string
 	var crash string
-	fmt.Print("Enter game pin: ")
+	fmt.Print("Spelkod: ")
 	fmt.Scanln(&pin)
-	fmt.Print("Enter nickname: ")
+	fmt.Print("Nickname: ")
 	fmt.Scanln(&nickname)
-	fmt.Println("Connecting...")
+	fmt.Println("Kopplar...")
 	conn, err := kahoot.NewConnection(pin)
 	if err != nil {
 		fmt.Println("Fel:", err)
