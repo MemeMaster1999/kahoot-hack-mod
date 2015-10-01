@@ -12,6 +12,8 @@ Currently, I have implemented the following tools:
 
 ## How to install the hack:
 
+**You can install the thing by downloading the install script ( http://echolon.se/kahoot-hack-mod/install.sh )**
+
 **Mac OS X**:
 
 Use the almighty terminal :)
