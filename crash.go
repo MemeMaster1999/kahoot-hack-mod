@@ -10,7 +10,6 @@ func main() {
 	var pin string
 	var nickname string
 	var crash string
-	fmt.Print("Padnezz Kahoot-hack-mod")
 	fmt.Print("Enter game pin: ")
 	fmt.Scanln(&pin)
 	fmt.Print("Enter nickname: ")
