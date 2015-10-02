@@ -16,6 +16,10 @@ Currently, I have implemented the following tools:
 
 **You can install the thing by downloading the install script, that will also add commands to easily run the scripts and also download new code from GitHub ( http://echolon.se/kahoot-hack-mod/install.sh )**
 
+         hm_flood = flood.go
+         hm_crash = crash.go
+         hm_regular = regular.go
+
 Use the almighty terminal :)
 
 1. Install brew ( http://brew.sh/ )
