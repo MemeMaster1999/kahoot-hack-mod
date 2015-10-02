@@ -6,7 +6,7 @@
 
 Currently, I have implemented the following tools:
 
- * crasher.go - freeze the game of kahoot irreversibly
+ * crash.go - freeze the game of kahoot irreversibly
  * flood.go - flood a lobby with a ton of bogus nicknames
  * regular.go - play the game regularly, answering questions as you progress
 
