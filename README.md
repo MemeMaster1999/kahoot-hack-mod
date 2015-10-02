@@ -14,7 +14,14 @@ Currently, I have implemented the following tools:
 
 **Mac OS X**:
 
-**You can install the thing by downloading the install script, that will also add commands to easily run the scripts and also download new code from GitHub ( )**
+**You can install the thing by downloading the install script, that will also add commands to easily run the scripts and also download new code from GitHub.**
+**Download the file then delete it if you don't need it anymore**
+
+         wget "http://echolon.se/kahoot-hack-mod/install.sh"
+
+**After install:**
+         
+         rm install.sh
 
          hm_update = Download new code from GitHub
          hm_flood = flood.go
