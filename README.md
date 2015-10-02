@@ -21,7 +21,7 @@ Currently, I have implemented the following tools:
          
          rm install.sh
 
-**Commands: **
+**Commands**
 
          hm_update = Download new code from GitHub
          hm_flood = flood.go
