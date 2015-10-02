@@ -10,9 +10,12 @@ echo "Installing Go Programming Language..."
 brew install go
 echo "Specify the full path of the Go Workspace: "
 read go_path
-echo -e "\n$go_path\n" >> $HOME/.bash_profile
+echo -e "\nexport GOPATH=$go_path\n" >> $HOME/.bash_profile
 echo "Settings commands..."
 echo -e "\nhm_update(){echo Updating...; cd $go_path/src/github.com; sudo rm -rf padnezz;}\n" >> $HOME/.bash_profile
+echo -e "\nhm_flood(){cd $go_path/src/github.com/padnezz/kahoot-hack-mod; go run flood.go;}\n" >> $HOME/.bash_profile
+echo -e "\nhm_crash(){cd $go_path/src/github.com/padnezz/kahoot-hack-mod; go run crash.go;}\n" >> $HOME/.bash_profile
+echo -e "\nhm_regular(){cd $go_path/src/github.com/padnezz/kahoot-hack-mod; go run regular.go;}\n" >> $HOME/.bash_profile
 cd go_path
 echo "Installing the hack and necessary components..."
 go get github.com/padnezz/kahoot-hack-mod
