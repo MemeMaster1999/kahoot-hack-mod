@@ -15,7 +15,7 @@ Currently, I have implemented the following tools:
 
 1. Download and install Go:
 
-         http://golang.org/dl
+http://golang.org/dl
 2. PATH for "go" command should be set automaticlly, but if this dosen't work, set the PATH variable your self
 
          Open Explorer
@@ -26,10 +26,10 @@ Currently, I have implemented the following tools:
          Create a new Variable for the user.
          Variable Name: go
          Variable Value: [The path where Go/bin is installed, default: C:\Go\bin]
-And restart any command programes open for it to take effect.
+And restart any cmds for it to take effect.
 3. Install Git for Windows if you have not done so
 
-         http://git-scm.com/download/win
+http://git-scm.com/download/win
 4. Set the PATH for GOPATH
 
          Open Explorer
@@ -40,6 +40,7 @@ And restart any command programes open for it to take effect.
          Create a new Variable for the user.
          Variable Name: GOPATH
          Variable Value: [The path where you want your work to be saved (outside the main Go directory), ex. C:\Go_work]
+And restart any cmds for it to take effect.
 5. Install packages
 
          go get github.com/padnezz/kahoot-hack-mod
