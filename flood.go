@@ -11,11 +11,11 @@ func main() {
 	var pin string
 	var nickname string
 	var numNames string
-	fmt.Print("Enter game pin: ")
+	fmt.Print("Game pin: ")
 	fmt.Scanln(&pin)
-	fmt.Print("Enter nickname: ")
+	fmt.Print("Nickname: ")
 	fmt.Scanln(&nickname)
-	fmt.Print("   Enter count: ")
+	fmt.Print("Count: ")
 	fmt.Scanln(&numNames)
 	count, err := strconv.Atoi(numNames)
 	if err != nil {
