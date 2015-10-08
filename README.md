@@ -11,6 +11,44 @@ Currently, I have implemented the following tools:
  * regular.go - play the game regularly, answering questions as you progress
 
 ## How to install the hack:
+**Windows**:
+
+1. Download and install Go:
+
+         http://golang.org/dl
+2. PATH for "go" command should be set automaticlly, but if this dosen't work, set the PATH variable your self
+
+         Open Explorer
+         Right-click "This computer"
+         Click on "Properties"
+         Click on "Advanced System Settings" to the left
+         Click on "Enviroment Variables"
+         Create a new Variable for the user.
+         Variable Name: go
+         Variable Value: [The path where Go/bin is installed, default: C:\Go\bin]
+And restart any command programes open for it to take effect.
+3. Install Git for Windows if you have not done so
+
+         http://git-scm.com/download/win
+4. Set the PATH for GOPATH
+
+         Open Explorer
+         Right-click "This computer"
+         Click on "Properties"
+         Click on "Advanced System Settings" to the left
+         Click on "Enviroment Variables"
+         Create a new Variable for the user.
+         Variable Name: GOPATH
+         Variable Value: [The path where you want your work to be saved (outside the main Go directory), ex. C:\Go_work]
+5. Install packages
+
+         go get github.com/padnezz/kahoot-hack-mod
+         go get github.com/gorilla/websocket
+6. Go to the workspace you defined and to src/github.com/padnezz/kahoot-hack-mod and run the diffrent commands
+
+         go run flood.go
+         go run crash.go
+         go run regular.go
 
 **Mac OS X**:
 
