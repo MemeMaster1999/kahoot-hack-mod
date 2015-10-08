@@ -16,6 +16,7 @@ Currently, I have implemented the following tools:
 1. Download and install Go:
 
 http://golang.org/dl
+
 2. PATH for "go" command should be set automaticlly, but if this dosen't work, set the PATH variable your self
 
          Open Explorer
@@ -30,6 +31,7 @@ And restart any cmds for it to take effect.
 3. Install Git for Windows if you have not done so
 
 http://git-scm.com/download/win
+
 4. Set the PATH for GOPATH
 
          Open Explorer
