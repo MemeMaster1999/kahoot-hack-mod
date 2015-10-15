@@ -52,9 +52,11 @@ And restart any cmds for it to take effect.
 **Mac OS X**:
 
 **You can install the thing by downloading the install script, that will also add commands to easily run the scripts and also download new code from GitHub.**
-**Download the file then delete it if you don't need it anymore**
+**Download the file, run it and then delete it if you don't need it anymore**
 
          wget "http://echolon.se/kahoot-hack-mod/install.sh"
+         
+         ./install.sh
          
          rm install.sh
 
