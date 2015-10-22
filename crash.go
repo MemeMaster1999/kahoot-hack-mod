@@ -24,7 +24,7 @@ func main() {
 		fmt.Println(err)
 		os.Exit(1)
 	}
-	fmt.Println("Enter to start crash:")
+	fmt.Println("Enter to start crash (must be while a question is asked):")
         fmt.Scanln(&crash)
 		fmt.Println("CRASHING!")
 		conn.SendCrashAnswer()
