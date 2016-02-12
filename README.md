@@ -1,6 +1,7 @@
 # Kahoot Hack
 
 **NOTE**: This is a modified git from kahoot-hack
+**NOTE**: THIS IS UNSTABLE, KAHOTT MAY HAVE FIXED THE ISSUES TO USE THIS HACKS AGAINST IT, FEEL FREE TO FORK AND FIX
 
 ## Tools included
 
