@@ -11,9 +11,9 @@ func main() {
 	var pin string
 	var nickname string
 	var answer string
-	fmt.Print("Game pin: ")
+	fmt.Print("Game pin:704116 ")
 	fmt.Scanln(&pin)
-	fmt.Print("Nickname: ")
+	fmt.Print("Nickname:Lil hac ")
 	fmt.Scanln(&nickname)
 	fmt.Println("Connecting...")
 	conn, err := kahoot.NewConnection(pin)
@@ -28,7 +28,7 @@ func main() {
 	for {
 		fmt.Print("Enter to answer question: ")
 		fmt.Scanln(&answer)
-		fmt.Print("Answer: ")
+		fmt.Print("Answer: 23")
 		var number string
 		fmt.Scanln(&number)
 		parsed, _ := strconv.Atoi(number)
